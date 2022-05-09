@@ -1,0 +1,4 @@
+# cross-course-project-CamillaHorneland
+cross-course-project-CamillaHorneland created by GitHub Classroom
+This is my Course Assignment for Web and Communications Technology. 
+In this assignment I will organis my files and folders in order to start developing the website on which I chose to work in Design 1.
