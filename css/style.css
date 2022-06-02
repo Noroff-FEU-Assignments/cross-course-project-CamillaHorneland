@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "tahoma";
+    src: url(../fonts/911Fonts.com_TahomaBold__-_911fonts.com_fonts_cebp.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "tahoma";
+    src: url(../fonts/911Fonts.com_TahomaRegular__-_911fonts.com_fonts_ADPX.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Palatino";
+    src: url(../fonts/palatinoBold.ttf);
+    font-weight: 150;
+}
+
+@font-face {
+    font-family: "Palatino";
+    src: url(../fonts/unicode.palatino.ttf);
+    font-weight: 100;
+}
