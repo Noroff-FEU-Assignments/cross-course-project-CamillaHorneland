@@ -1,23 +1,99 @@
 @font-face {
     font-family: "tahoma";
     src: url(../fonts/911Fonts.com_TahomaBold__-_911fonts.com_fonts_cebp.ttf);
-    font-weight: 200;
+    font-weight: 100;
 }
 
 @font-face {
     font-family: "tahoma";
     src: url(../fonts/911Fonts.com_TahomaRegular__-_911fonts.com_fonts_ADPX.ttf);
-    font-weight: 100;
+    font-weight:50;
 }
 
 @font-face {
     font-family: "Palatino";
     src: url(../fonts/palatinoBold.ttf);
-    font-weight: 150;
+    font-weight: 80;
 }
 
 @font-face {
     font-family: "Palatino";
     src: url(../fonts/unicode.palatino.ttf);
+    font-weight: 50;
+}
+body {
+    font-family: "Tahoma", "Palatino", Roboto, Geneva;
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+    font-family: "tahoma";
     font-weight: 100;
+    font-size: 1em;
+    color:;
+    text-align: center;
+}
+
+.logo {
+    
+}
+header,
+footer {
+   background-color:#0B4A4072;
+   color: #fff;
+   min-height: 50px; 
+   display: flex;
+   padding: 10px;
+}
+
+nav {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+    color: #fff;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+.icon1,
+.icon2 {
+    float: right; 
+    position: absolute;
+}
+.icon1 {
+    margin: 5px;
+    right: 35px;
+}
+
+.icon2 {
+    margin: 5px;
+    right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: px;
+}
+
+.icon3,
+.icon4 {
+    float: left;
+}
+
+.icon3 {
+    left: 10px;
+    margin: 5px;
+}
+
+.icon4 {
+    left: 35px;
+    margin: 5px;
 }
