@@ -17,44 +17,83 @@
 }
 
 body {
-    font-family: "Tahoma", "Roboto", Roboto, Geneva;
+    font-family: "Tahoma", "Roboto", sans-serif, Geneva;
     min-height: 100vh;
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
     position: flex;
 }
-
-h1 {
-    font-family: "tahoma";
-    font-weight: 100;
-    font-size: 1.1em;
-    color:#103040;
-    text-align: center;
-}
-
-p {
-    font-family: "Roboto";
-    font-weight: 90;
-    font-size: 1em;
-    color: #0F4E57;
-    text-align: center;
-}
-
-.logo {
-    display:
+main {
+    padding: 0 5px 20px;
 }
 header,
 footer {
    background-color:#0B4A4072;
    color: #fff;
    min-height: 50px; 
-   position: flex;
-   padding: 10px;
+   
 }
 
-nav {
+.fa-solid {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.hamburger {
+    font-family: "Tahoma";
+    position: fixed;
     display: none;
+    background: #103040;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    padding: 60px 0;
+}
+
+.hamburger ul, .hamburger ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger ul {
+    display: grid;
+        grid-gap: 20px;
+        max-width: 80%;
+}
+
+.hamburger ul li a {
+    text-decoration: none;
+    color: #103040;
+    background: #fff;
+    padding: 20px;
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+.hamburger ul li a i {
+    position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -15px;
+}
+
+.close_btn {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close_btn i {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;;
 }
 
 #hamburger-menu {
@@ -66,38 +105,184 @@ nav {
     display: block;
 }
 
+#overlay {
+    display: block;
+}
+
 .icon1,
 .icon2 {
     float: right; 
     position: absolute;
+    margin: 5px;
+    font-size: 20px;
+    margin: 10px 10px;
 }
 .icon1 {
-    margin: 5px;
     right: 35px;
 }
 
 .icon2 {
-    margin: 5px;
     right: 10px;
 }
 
+.icon5 {
+  float: right;
+  font-size: 40px;
+  margin-top: 80px;
+  display: block;
+}
+
+.logo_image {
+    display: block;
+    margin: 2px auto;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
 footer {
-    margin: 5px;
+    /*margin: 5px;*/
     text-align: center;
 }
 
 .icon3,
 .icon4 {
     float: left;
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .icon3 {
     left: 10px;
-    margin: 5px;
 }
 
 .icon4 {
     left: 30px;
-    margin: 5px;
+}
+.hero {
+    text-align: center;;
 }
 
+.welcome_content {
+    /*background-image: url(../images/woman-mountain-mobile.jpg);*/
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    /*min-height: 70vh;*/
+}
+.welcome_content h1 {
+    position: relative;
+}
+
+.welcome_content h1:before {
+    display: block;
+    content: "";
+    background: url(../images/x-symbol.png) no-repeat;
+    background-size: auto;
+    width: 17px;
+    height: 16px;
+    background-size: 17px 16px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.welcome_content h1:after {
+    display: block;
+    content: "";
+    background: url(../images/x-symbol.png) no-repeat;
+    background-size: auto;
+    width: 17px;
+    height: 16px;
+    background-size: 17px 16px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+h1 {
+    font-family: "tahoma";
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #103040;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto";
+    font-weight: 90;
+    font-size: 1em;
+    color: #0F4E57;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-weight: 90;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 80;
+    font-size: 1em;
+    color: #0F4E57;
+    text-align: center;
+}
+
+.cta {
+    background-color: #0B4A40;
+        color: #fff;
+        font-size: 1em;
+        /*text-transform: uppercase;*/
+        padding: 20px 0;
+        border-radius: 50px;
+        font-family: "Roboto";
+        font-weight: 90;
+        display: block;
+        text-align: center;
+        max-width: 280px;
+        margin: 30px auto;
+        text-decoration: none;
+        font-size: 1.9em;
+}
+
+.bestselling_products {
+/*    display: grid;
+    grid-template-columns: 1 fr 1 fr;*/
+    align-items: inline center; 
+    /*grid-gap: 20px;*/
+
+}
+
+.bestselling_products img {
+    grid-column: -1/1;
+    width: 100%;
+    min-height: 177px;
+    object-fit: contain;
+}
+
+.product_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product_container > div {
+    width: 40%;;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.product_container > div * {
+    text-align: center;
+    margin: 0;
+}
+
+.copy {
+    float: right;
+    color: #fff;
+    margin-right: 10px;
+}
