@@ -32,7 +32,6 @@ footer {
    background-color:#0B4A4072;
    color: #fff;
    min-height: 50px; 
-   
 }
 
 .fa-solid {
@@ -111,14 +110,14 @@ footer {
 
 .icon1,
 .icon2 {
-    float: right; 
     position: absolute;
-    margin: 5px;
     font-size: 20px;
-    margin: 10px 10px;
+    color: #fff;
+    
 }
+
 .icon1 {
-    right: 35px;
+    right: 40px;
 }
 
 .icon2 {
