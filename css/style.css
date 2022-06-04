@@ -68,7 +68,6 @@ footer {
     color: #103040;
     background: #fff;
     padding: 20px;
-    padding: 20px;
     display: block;
     position: relative;
 }
@@ -112,9 +111,8 @@ footer {
 .icon2 {
     position: absolute;
     font-size: 20px;
-    color: #fff;
-    
-}
+    color: #fff; 
+}   
 
 .icon1 {
     right: 40px;
@@ -285,3 +283,5 @@ h3 {
     color: #fff;
     margin-right: 10px;
 }
+
+@media
