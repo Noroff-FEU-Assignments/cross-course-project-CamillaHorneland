@@ -1,19 +1,16 @@
 @font-face {
     font-family: "tahoma";
     src: url(../fonts/911Fonts.com_TahomaBold__-_911fonts.com_fonts_cebp.ttf);
-    font-weight: 100;
 }
 
 @font-face {
     font-family: "tahoma", sans-serif;
     src: url(../fonts/911Fonts.com_TahomaRegular__-_911fonts.com_fonts_ADPX.ttf);
-    font-weight:50;
 }
 
 @font-face {
     font-family: "Roboto", sans-serif;
     src: href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet";
-    font-weight: 80;
 }
 
 body {
@@ -22,7 +19,6 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    position: flex;
 }
 main {
     padding: 0 5px 20px;
@@ -56,7 +52,8 @@ footer {
     padding: 60px 0;
 }
 
-.hamburger ul, .hamburger ul li {
+.hamburger ul,
+.hamburger ul li {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -64,8 +61,8 @@ footer {
 
 .hamburger ul {
     display: grid;
-        grid-gap: 20px;
-        max-width: 80%;
+    grid-gap: 20px;
+    max-width: 80%;
 }
 
 .hamburger ul li a {
@@ -79,9 +76,9 @@ footer {
 
 .hamburger ul li a i {
     position: absolute;
-        right: 10px;
-        top: 50%;
-        margin-top: -15px;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
 }
 
 .close_btn {
@@ -162,15 +159,6 @@ footer {
     left: 30px;
 }
 
-
-.welcome_content {
-    /*background-image: url(../images/woman-mountain-mobile.jpg);*/
-    background-size: 50vh;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
-    /*min-height: 70vh;*/
-}
 .welcome_content h1 {
     position: relative;
 }
@@ -234,7 +222,6 @@ h3 {
     background-color: #0B4A40;
         color: #fff;
         font-size: 1em;
-        /*text-transform: uppercase;*/
         padding: 20px 0;
         border-radius: 50px;
         font-family: "Roboto";
@@ -244,7 +231,7 @@ h3 {
         max-width: 280px;
         margin: 30px auto;
         text-decoration: none;
-        font-size: 1.9em;
+        font-size: 1.7em;
 }
 
 .bestselling_products {
@@ -287,11 +274,43 @@ h3 {
     margin-right: 10px;
 }
 
-@media (min-width: 600px) {
-
-}
-
-@media (min-widt:800px ) {
-    grid-template-columns: repeat(4, 1fr);
+@media (min-width: 400px) {
     
+  
 }
+@media (min-width: 600px) {
+    .logo_image {
+       width: 350px;
+    }
+
+    .second_header {
+       text-align: center;
+       width: ;
+
+    }
+
+}
+
+@media (min-widt:800px) {
+   
+    }
+
+    
+
+    .welcome_content
+    .bestselling {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr auto;
+        align-items: inline center;
+        grid-gap: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    
+    
+
+}
+   
