@@ -301,26 +301,24 @@ footer {
 
 
 @media (min-width: 800px) {
-   .header {
-        float: left; 
+    header {
+        display: flex;
         align-items: center;
+        justify-content: space-evenly;
     }
    
     .first_header {
-        min-width: 400px;
-        height: 400px;
+        min-width: 40vh;
+        height: 400px;   
     }
 
     .logo_image {
-        display: flex;
-        align-items: center;
         margin-top: 40px;
         width: 350px;
     }
 
     .woman_image {
-        display: flex;
-        width: 400px;
+        min-width: 400px;
         height: 400px;
         padding: 0%;
     }
@@ -359,12 +357,10 @@ footer {
         font-size: 1.5em; 
     }
 
-    .about
-    .contact {
-        float: left;
-    }
     main { 
         overflow: hidden;
+        display: flex;
+        justify-content: center;
     }
 }
    
