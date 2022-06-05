@@ -32,9 +32,7 @@ footer {
 
 .second_header {
     text-align: center;
-    padding: 5px;
 }
-
 .fa-solid {
     font-size: 30px;
     margin: 5px;
@@ -113,7 +111,6 @@ footer {
 .icon2 {
     position: absolute;
     font-size: 20px;
-    color: #fff; 
 }   
 
 .icon1 {
@@ -138,6 +135,11 @@ footer {
     width: 250px;
 }
 
+.woman_image {
+     width: 400px;
+     align-items: center;
+     padding: 5px;
+}
 footer {
     /*margin: 5px;*/
     text-align: center;
@@ -275,38 +277,67 @@ h3 {
 }
 
 @media (min-width: 400px) {
+    .woman_image {
+        padding: 5px;
+    }
+
+    .icon1,
+    .icon2 {
+        color: #fff;
+        }
     
   
 }
 @media (min-width: 600px) {
     .logo_image {
-       width: 350px;
+       width: 400px;
     }
 
-    .second_header {
-       text-align: center;
-       width: ;
+    .woman_image {
+      width: 500px;
+      padding: 5px;
+    }
 
     }
 
-}
 
-@media (min-widt:800px) {
+
+@media (min-width: 800px) {
+   .header {
+        float: left; 
+        align-items: center;
+    }
    
+    .first_header {
+        min-width: 400px;
+        height: 400px;
     }
 
-    
-
-    .welcome_content
-    .bestselling {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: 1fr auto;
-        align-items: inline center;
-        grid-gap: 0;
+    .logo_image {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        width: 350px;
+    }
+
+    .woman_image {
+        display: flex;
+        width: 400px;
+        height: 400px;
+        padding: 0%;
+    }
+
+    .icon1,
+    .icon2 {
+        color: #000;
+    }
+
+    #main1 {
+       float: left;
+    }
+
+    #main2 {
+        float: right;
     }
 
     
