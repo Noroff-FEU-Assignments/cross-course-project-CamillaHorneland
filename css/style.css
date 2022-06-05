@@ -27,11 +27,16 @@ body {
 main {
     padding: 0 5px 20px;
 }
-header,
+.first_header,
 footer {
    background-color:#0B4A4072;
    color: #fff;
    min-height: 50px; 
+}
+
+.second_header {
+    text-align: center;
+    padding: 5px;
 }
 
 .fa-solid {
@@ -156,9 +161,7 @@ footer {
 .icon4 {
     left: 30px;
 }
-.hero {
-    text-align: center;;
-}
+
 
 .welcome_content {
     /*background-image: url(../images/woman-mountain-mobile.jpg);*/
@@ -181,7 +184,7 @@ footer {
     height: 16px;
     background-size: 17px 16px;
     position: absolute;
-    left: 0;
+    left: 50px;
     top: 4px;
 }
 
@@ -194,7 +197,7 @@ footer {
     height: 16px;
     background-size: 17px 16px;
     position: absolute;
-    right: 0;
+    right: 50px;
     top: 4px;
 }
 
@@ -284,4 +287,11 @@ h3 {
     margin-right: 10px;
 }
 
-@media
+@media (min-width: 600px) {
+
+}
+
+@media (min-widt:800px ) {
+    grid-template-columns: repeat(4, 1fr);
+    
+}
