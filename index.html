@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" name="description" content="Get rain jackets, designed for a active life."/>
-  <meta name="keywords" content="jackets, active, life, shop"/>
-  <meta name="author" content="Camilla Horneland" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rainydays | Home</title>
-  <link href="/css/fontawesome/fontawesome.min.css" type="text/css" rel="stylesheet" />
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" name="description" content="Get rain jackets, designed for a active life."/>
+   <meta name="keywords" content="jackets, active, life, shop"/>
+   <meta name="author" content="Camilla Horneland" />
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+   <title>Rainydays | Home</title>
+  
+   <link href="/css/fontawesome/fontawesome.min.css" type="text/css" rel="stylesheet" />
   <link href="/css/style.css" type="text/css" rel="stylesheet" />
 </head>
-
-
- <body>
+<body>
    <header>
-      <div class="header first_header">
-        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
-        <input type="checkbox" id="hamburger-menu" />
-         <nav class="hamburger">
-           <ul>
-              <li><a href="jacket-spesific.html">Show jackets</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact <i class="fa-solid fa-circle-user"></i></a>
-           </ul>
-           <a class="close_btn" type="X" href="index.html"><i class="fa-solid fa-x icon5"></i></a>
-           <div class="overlay" id="overlay"></div>
-          </nav>
-       <div><a href="contact.html" type="contact"><i class="fa-solid fa-circle-user icon1"></i></a></div>
-       <div><a href="cart.html" type="cart"><i class="fa-solid fa-cart-shopping icon2"></i></a></div>
-      <div class="logo">
-        <img href="index.html" src="images/RainyDays_Logo small.png" class="logo_image" alt="RainyDays_Logo">
-      </div>
-      </div>
-      <div class="header second_header">
-        <img src="/images/woman-mountain-web.jpg" class= "woman_image" alt="woman looking at the mountain class" />
-      </div>
+        <div class="header_container">
+            <nav>
+                <div id="mobile_nav">
+                    <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+                    <input type="checkbox" id="hamburger-menu"/>
+                    <nav class="hamburger">
+                       <ul>
+                          <li><a href="/jacket-spesific.html">Show jackets</a></li>
+                          <li><a href="/about.html">About</a></li>
+                          <li><a href="/contact.html">Contact <i class="fa-solid fa-circle-user"></i></a>
+                       </ul>
+                       <a class="close_btn" type="X" href="/"><i class="fa-solid fa-x icon5"></i></a>
+                       <div class="overlay" id="overlay"></div>
+                     </nav>
+                </div>
+                <ul id="desktop_nav">
+                    <li><a href="/contact.html" title="Contact"><i class="fa-solid fa-circle-user icon1"></i></a></li>
+                    <li><a href="/cart.html" title="Shopping Cart"><i class="fa-solid fa-cart-shopping icon2"></i></a></li>
+                </ul>
+            </nav>
+            <h1 id="logo">
+               <a href="/" title="Home"><img src="/images/logo.png" alt="Rainy Days Inc." /></a>
+            </h1>
+            <img src="/images/woman-mountain-web.jpg" alt="woman looking at the mountain class" />
+            <div class="clearfix"></div>
+        </div>
    </header>
-   <main>
-       <section id="main1">
-         <div class="main welcome_content">  
-          <h1> X Rain jackets for those RAINYDAYS X</h1>
-          <p>Designed for a active life. For him and her.</p>
-          <a href="jacket-spesific.html" class="cta">Show jackets</a>
-          <div href="about.html" class="cta-blue about">About</div>
-          <div href="contact.html" class="cta-blue contact">Contact</div>
-         </div>
-        </section>
-       <section id="main2"> 
-         <div class="bestselling">
-        <h2>Our bestselling jackets</h2>
-         <div class="product_container">
-          <div class="bestselling_products">
-            <img src="images/RainyDays_Jacket3 mobile.jpg" alt="Red jacket Scott" />
-            <h3>Scott jacket</h3>
-            <p>1500 kr</p>
+      <main>
+        <div class="main wrapper">
+          <div class="flex-row">
+            <div class="col-6 col-m-12 text-center p2">
+              <h2 class="pre-post-x heading">Rain jackets for those RAINYDAYS</h2>
+              <p class="mb">Designed for a active life. For him and her.</p>
+              <div class="mw row mb">
+                <a href="/jackets.html" class="btn green center" title="Show Jackets">Show Jackets</a>
+              </div>
+              <div class="row mb hide-mobile">
+                <a href="/about.html" class="btn blue" title="About">About</a>
+                <a href="/contact.html" class="btn blue" title="About">Contact</a>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="col-6 col-m-12">
+              <div class="bestselling p2">
+                <h2>Our bestselling jackets</h2>
+                <div class="product_container">
+                  <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
+                    <a href="/red-jacket-scott.html" title="See Red Jacket Scott">
+                      <img src="/images/products/red-jacket-scott.jpg" alt="Red jacket Scott">
+                      <h3 class="product_name" itemprop="name">Scott jacket</h3>
+                      <p class="product_price" itemprop="price">1500 kr</p>
+                    </a>
+                  </div>
+                  <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
+                    <a href="/black-jacket-scott.html" title="">
+                      <img src="/images/products/black-jacket-scott.png" class="jacket4" alt="Black jacket Scott">
+                      <h3 class="product_name" itemprop="name">Scott jacket</h3>
+                      <p class="product_price" itemprop="price">1500 kr</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="bestselling_products ">
-            <img src="images/RainyDays_Jacket4 2mobile jpg.jpg" class=jacket4 alt="Black jacket Scott" />
-            <h3>Scott jacket</h3>
-            <p>1500 kr</p>
+      
+        </div>
+      </main>
+      <footer class="wrapper">
+        <div class="mw">
+          <div class="social col-6">
+            <a href="https://www.instagram.com/rainydaydeals/" title="Instagram" class="social_icon"><i
+                class="fa-brands fa-instagram icon3"></i></a>
+            <a href="https://www.facebook.com/rainydaydeals/" title="Facebook" class="social_icon"><i
+                class="fa-brands fa-facebook-square icon4"></i>
+            </a>
           </div>
-         </div>
-         </div>
-       </section>
-   </main>
-   <footer>
-    <a href="https://www.instagram.com/rainydaydeals/"><i class="fa-brands fa-instagram icon3"></i></a>
-    <a href="https://www.facebook.com/rainydaydeals/"><i class="fa-brands fa-facebook-square icon4"></i></a>
-    <p class="copy">Copyright &copy</p>
-   </footer>
- </body>
+          <div class="col-6">
+            <p class="copy">Copyright &copy</p>
+          </div>
+        </div>
+      </footer>
+  </body>
+      
 </html>
