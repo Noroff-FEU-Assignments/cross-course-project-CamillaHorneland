@@ -1,0 +1,9 @@
+/*
+* Media queries
+*/
+@media (min-width: 800px) {
+
+    #desktop_nav i {
+        color: #000 !important;
+    }
+}
