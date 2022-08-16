@@ -1,0 +1,30 @@
+/*
+* Media queries
+*/
+@media (min-width: 800px) {
+
+    .product_container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px); 
+    
+    }
+
+    .product_container>div {   
+    min-width: 90%;
+    
+    }
+
+   
+}
+
+@media (max-width: 800px) {
+
+    .product_container {
+            display: grid;
+            grid-template-columns: repeat(2, 250px);
+        }
+
+    .product_container>div {
+            width: 80%;
+    }
+}

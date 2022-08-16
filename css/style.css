@@ -386,7 +386,6 @@ i {
 }
 
 .bestselling_products img {
-    grid-column: -1/1;
     width: 100%;
     min-height: 177px;
     object-fit: contain;
