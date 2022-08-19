@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+
+}
 form {
     border: 2px solid black;
     height: 550px;
@@ -14,5 +18,29 @@ form {
 
 .btn_2 {
    font-size: 1em;
-   
 }
+
+.pre-post-mail::before {
+    content: "";
+        display: inline-block;
+        background: url(../images/email.png) no-repeat;
+        width: 25px;
+        background-size: contain;
+        height: 25px;
+        margin-right: 7px;
+        margin-top: 5px;
+    }
+ 
+
+
+.pre-post-phone::before {
+    content: "";
+    display: inline-block;
+    background: url(../images/telephone-call.png) no-repeat;
+    width: 25px;
+    background-size: contain;
+    height: 25px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+    
