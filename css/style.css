@@ -324,7 +324,6 @@ i {
     margin: 0;
     padding: 0;
     font-size: 20px;
-    ;
 }
 
 #hamburger-menu {
@@ -352,11 +351,12 @@ i {
     display: inline-block;
     text-align: center;
     max-width: 280px;
+    min-width: 100px;
     margin: 0 auto;
     text-decoration: none;
     font-size: 1.7em;
 }
-
+  
 .btn.green {
     background-color: #0B4A40;
     color: #fff;
@@ -366,6 +366,7 @@ i {
     color: #fff;
     background-color: #103040;
 }
+
 
 /*
 * Product list
