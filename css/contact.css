@@ -4,20 +4,18 @@ h1 {
 }
 form {
     border: 2px solid black;
-    height: 550px;
     width: 400px; 
+    display: inline-block;
+    
 }
 
 .form {
     margin: 9px;
 }
 
-.label {
-    text-a
-}
-
 .btn_2 {
    font-size: 1em;
+   margin: 10px;
 }
 
 .pre-post-mail::before {
@@ -30,6 +28,10 @@ form {
         margin-right: 7px;
         margin-top: 5px;
     }
+
+p {
+    text-align: center;
+}
  
 
 
@@ -43,4 +45,25 @@ form {
     margin-right: 7px;
     margin-top: 5px;
 }
+
+/*
+* Media queries
+*/
+@media (min-width: 800px) {
+
+    .flex_box {
     
+           margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            size: 100%;
+        }
+
+    .col-6 {
+            width: 100%;
+    }
+
+    .flex_1 {
+        margin-left: 100px;
+    }
+}

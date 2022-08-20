@@ -60,7 +60,7 @@ h2 {
 
 h3 {
     font-family: "Roboto regular";
-    font-weight: 90;
+    font-weight: 0;
     font-size: 1em;
     color: #103040;
 
@@ -163,7 +163,7 @@ img {
 
 
 .center {
-    margin: 0 auto !important;
+    margin: 0 auto;
     float: none;
     clear: both;
 }
