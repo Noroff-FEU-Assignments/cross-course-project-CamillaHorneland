@@ -117,6 +117,10 @@
     display: block;
 }
 
+h1 {
+background-color: #fff;
+}
+
 h4 {
     text-align: center;
 }
