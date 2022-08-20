@@ -1,0 +1,58 @@
+#logo {
+    width: 100%;
+    display: block;
+    margin: 0;
+    min-height: 300px;
+}
+
+form {
+    border: 2px solid black;
+    width: 400px;
+    display: inline-block;
+}
+
+.form {
+    margin: 9px;
+}
+
+.form_text, .form_order {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.form_shipping,
+.form_price {
+    display: ;
+}
+
+.form_order {
+
+    margin-bottom: 50px;
+
+}
+
+img {
+    width: 15%; 
+    float: left; 
+}
+
+/*
+* Media queries
+*/
+@media (min-width: 900px) {
+
+    .flex {
+
+        margin-left: 80px;
+        display: flex;
+        flex-direction: row;
+        size: 100%;
+    }
+
+
+    .flex_1 {
+        margin-left: 80px;
+        margin-right: 100px;
+    }
+}

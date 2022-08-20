@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-
 }
+
 form {
     border: 2px solid black;
     width: 400px; 
@@ -27,7 +27,7 @@ form {
         height: 25px;
         margin-right: 7px;
         margin-top: 5px;
-    }
+}
 
 .pre-post-phone::before {
     content: "";
