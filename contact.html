@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" name="description" content="Get rain jackets, designed for a active life." />
+    <meta http-equiv="X-UA-Compatible" name="description" content="Get rain jackets, designed for a active life. Contact page." />
     <meta name="keywords" content="jackets, active, life, shop" />
     <meta name="author" content="Camilla Horneland" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,6 +12,7 @@
     <link href="/css/fontawesome/fontawesome.min.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
     <link href="/css/contact.css" type="text/css" rel="stylesheet" />
+    <link href="/css/modals.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -58,7 +59,7 @@
                      <div class="form"><input type="text" id="phone/mail" name="phonemail"><br></div>
                      <label for="message"> Message:</label><br>
                      <div class="form"><textarea  name="message" rows="15" cols="30"></textarea></div>
-                      <div><a href="*" class="btn btn_2 green center" title="Send message">Send</a></div>
+                      <div><a href="#modal-cart" class="btn btn_2 green center" title="Send message">Send</a></div>
                  </form>
              </div>
              <div class="flex_1 mw row mb">
@@ -88,6 +89,18 @@
             </div>
         </div>
     </footer>
+    <div id="modal-cart" class="modal-container">
+        <div class="modal-content-wrapper success">
+            <div class="modal-content">
+                <span class="checkmark_icon"></span>
+                <h4>Product succsesfully added to shopping cart</h4>
+                <div class="actions">
+                    <a href="/jackets.html" class="btn btn3 center" title="Show Jackets">Continue shopping</a>
+                    <a href="cart.html" class="btn3 btn nomargin">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
