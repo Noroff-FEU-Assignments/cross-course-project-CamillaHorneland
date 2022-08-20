@@ -1,0 +1,146 @@
+.modal-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.modal-content-wrapper {
+    position: absolute;
+    width: 800px;
+    height: 650px;
+    z-index: 2;
+    padding: 10px;
+    border: 1px solid #000;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -300px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.modal-content-wrapper.success {
+    background-color: #0c1f28;
+    color: #fff;
+    width: 400px;
+    height: 450px;
+    margin-left: -200px;
+    margin-top: -225px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.modal-content-wrapper.success .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-content-wrapper.success .actions {
+    flex-direction: column;
+    position: relative;
+    left: inherit;
+    top: inherit;
+    bottom: inherit;
+    margin: 20px auto 0;
+    transform: none;
+}
+
+.modal-content-wrapper .name,
+.modal-content-wrapper .price {
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+}
+
+.modal-content-wrapper .image {
+    width: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;;
+}
+
+.modal-content-wrapper .actions {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%)
+}
+
+.model-content {
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url(/images/modalclose.svg) no-repeat;
+    background-size: 30px 25px;
+    width: 30px;
+    height: 25px;
+    display: block;
+    text-indent: -9999px;
+}
+
+#modal-product1, #modal-product2, #modal-cart {
+    display: none;
+}
+
+#modal-product1:target, #modal-product2:target, #modal-cart:target {
+    display: block;
+}
+
+h4 {
+    text-align: center;
+}
+
+#model-cart {}
+
+.btn3 {
+    background-color: #fff;
+    color: #103040;
+}
+
+
+.checkmark_icon {
+    background: url(/images/checkmark.svg) no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-size: 100px 100px;
+}
+
+.size {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) { 
+    .modal-content-wrapper {
+        width: 330px;
+        height: 460px;
+        margin-left: -175px;
+        margin-top: -230px;
+    }
+
+    .modal-content-wrapper.success {
+        width: 360px;
+        margin-left: -200px;
+    }
+    .modal-content-wrapper .actions {
+        flex-direction: column;
+        
+    }
+}

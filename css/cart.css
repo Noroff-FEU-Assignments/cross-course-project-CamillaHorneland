@@ -5,10 +5,54 @@
     min-height: 300px;
 }
 
-form {
+.payment-option {
     border: 2px solid black;
     width: 400px;
     display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.payment-option ul, .payment-option ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;;
+}
+.payment-option ul li input {
+    padding: 8px;
+}
+
+.cart-container .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;;
+}
+
+.payment-option ul li {
+    margin-bottom: 10px;
+}
+
+#cc-radio {
+    position: relative;
+}
+#cc-radio:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    right: 0;
+    top:0;
+    background: url(/images/cc.png) no-repeat;
+}
+
+#cc-card {
+
+}
+
+#cc-exp-cvc {
+    width: 70px;
 }
 
 .form {
@@ -32,27 +76,46 @@ form {
 
 }
 
-img {
+/*img {
     width: 15%; 
     float: left; 
+}*/
+.table-image {
+    width: 100px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table tfoot tr td {
+    text-align: right;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #000;
+}
+
+table tbody tr td, table tbody tr td p {
+    text-align: center;
+}
+
+table tfoot tr:first-child td {
+    border-top: 1px solid #000;
+}
+
+table tfoot tr:last-child td {
+    border-bottom: 1px solid #000;
+}
 /*
 * Media queries
 */
-@media (min-width: 900px) {
 
-    .flex {
-
-        margin-left: 80px;
-        display: flex;
-        flex-direction: row;
-        size: 100%;
-    }
-
-
-    .flex_1 {
-        margin-left: 80px;
-        margin-right: 100px;
+@media (max-width: 800px) {
+    .cart-container .actions {
+        justify-content: center;
+        ;
     }
 }

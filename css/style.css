@@ -343,7 +343,8 @@ i {
 * Buttons
 */
 .btn {
-    padding: 20px 40px;
+    /*padding: 20px 40px;*/
+    padding: 15px 30px;
     border-radius: 50px;
     font-family: "Roboto bold";
     font-weight: 90;
@@ -353,7 +354,8 @@ i {
     min-width: 100px;
     margin: 0 auto;
     text-decoration: none;
-    font-size: 1.4em;
+    /*font-size: 1.4em;*/
+    font-size: 1em;
 }
   
 .btn.green {
@@ -366,6 +368,9 @@ i {
     background-color: #103040;
 }
 
+.btn.nomargin {
+    margin: 0;
+}
 
 /*
 * Product list

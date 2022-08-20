@@ -41,36 +41,76 @@
             <h1 id="logo"><a href="/index.html" title="Home"><img src="/images/logo.png" alt="Rainy Days Inc." /></a></h1>
      </header>
      <main>
-        <div class="flex">
-            <div class="col-6 col-m-12 text-center p2">
-                <form>
-                    <h2>Your order</h2>
-                    <div class="form_text"><p> Product</p></div>
-                    <div class="form_text"><p>Quanity</p></div>
-                    <div class="form_text"><p>Price</p></div>
-                    <div class="form_order"><img src="/images/products/red-jacket-scott.jpg" alt="See Red Jacket Scott"></a></div>
-                    <div class="form_order"><p>- 1 +</p></div>
-                    <div class="form_order"><p>1500,00 kr</p></div>
-                    <div class="form_shipping"><p>Free shipping</p></div>
-                    <div class="form_shipping"><p>00,00 kr</p></div>
-                    <div class="form_price"><p>Total price</p></div>
-                    <div class="form_price"><p>1500,00 kr</p></div>
-                </form>
-            </div>
-            <div class="flex_1 mw row mb">
-                <div class="col-m-12 text-center p2">
-                    <form>
-                        <label for="radiobutton"></label>
-                        <label for="phone/mail">Credit Card</label><br>
-                        <div class="form"><input type="text" id="phone/mail" name="phonemail"><br></div>
-                    </form>
-                    <form>
-                        <label for="phone/mail">PayPal</label><br>
-                        <div class="form"><input type="text" id="phone/mail" name="phonemail"><br></div>
-                    </form>
+        <div class="cart-container wrapper">
+            <div class="flex-row">
+                <div class="col-6 col-m-12 text-center p2">
+                    <h3>Your Order</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="table-image" src="/images/products/red-jacket-scott.jpg" alt="See Red Jacket Scott">
+                                </td>
+                                <td>
+                                    <p>- 1 +</p>
+                                </td>
+                                <td>
+                                    1500,00 kr
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Free Shipping</td>
+                                <td>00,00 kr</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Total price</td>
+                                <td>1500,00 kr</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
                 </div>
-                <a href="/**" class="btn blue" title="Checkout">Checkout</a>
-                <a href="/jackets.html" class="btn green center" title="Continue shopping">Show Jackets</a>
+                <div class="col-6 col-m-12 p2">
+                    <div class="">
+                        <form>
+                            <div class="cc-container payment-option">
+                                <ul>
+                                    <li id="cc-radio">
+                                        <label><input type="radio" name="payment_option"  value="cc" checked /> Credit Card</label>
+                                    </li>
+                                    <li>
+                                        <label><input type="text" name="cc-card" id="cc-card" placeholder="4190 0000 1234 3443" />
+                                        <input type="cc-exp-cvc" id="cc-exp-cvc" placeholder="12/25 321" /></label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="paypal-container payment-option">
+                                <ul>
+                                    <li>
+                                        <label><input type="radio" name="payment_option" value="cc" /> Paypal</label>
+                                    </li>
+                                    <li>
+                                        <input type="text" name="email" placeholder="mypaypal@me.com" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="actions">
+                        <a href="/**" class="btn blue nomargin" title="Checkout">Checkout</a>
+                        <a href="/jackets.html" class="btn green center nomargin" title="Continue shopping">Show Jackets</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
