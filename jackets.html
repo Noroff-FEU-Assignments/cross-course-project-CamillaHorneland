@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" name="description" content="Get rain jackets, designed for a active life." />
-    <meta name="keywords" content="jackets, active, life, shop" />
+    <meta name="keywords" content="jackets, active, life, shop. Product spesific page" />
     <meta name="author" content="Camilla Horneland" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -13,6 +13,7 @@
     <link href="/css/fontawesome/fontawesome.min.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
     <link href="/css/jackets.css" type="text/css" rel="stylesheet" />
+    <link href="/css/modals.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -53,49 +54,49 @@
                     <div class="bestselling p2">
                         <div class="product_container">
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/red-jacket-scott.html" title="See Red Jacket Scott">
+                                <a href="#modal-product1" title="See Red Jacket Scott">
                                     <img src="/images/products/red-jacket-scott.jpg" alt="Red jacket Scott">
                                     <h3 class="product_name" itemprop="name">Scott jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/black-jacket-scott.html" title="See Black jacket Scott">
+                                <a href="#modal-product2" title="See Black jacket Scott">
                                     <img src="/images/products/black-jacket-scott.png" class="jacket4" alt="Black jacket Scott">
                                     <h3 class="product_name" itemprop="name">Scott jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/black-jacket-scott.html" title="See dark thin jacket Scott">
+                                <a href="#modal-product3" title="See dark thin jacket Scott">
                                     <img src="/images/products/dark-jacket-scott.png" class="jacket4" alt="Black/grey thin jacket Scott">
                                     <h3 class="product_name" itemprop="name">Scott jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/black-jacket-scott.html" title="See black and grey thick jacket Scott">
+                                <a href="#modal-product4" title="See black and grey thick jacket Scott">
                                     <img src="/images/products/grey-black-jacket-scott.png" class="jacket4" alt="Black/grey thick jacket Scott">
                                     <h3 class="product_name" itemprop="name">Scott jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/black-jacket-scott.html" title="See green Patagonia jacket">
+                                <a href="#modal-product5" title="See green Patagonia jacket">
                                     <img src="/images/products/patagonia-jacket.png" class="jacket4" alt="Green jacket Patagonia">
                                     <h3 class="product_name" itemprop="name">Patagonia jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                             <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                <a href="/black-jacket-scott.html" title="See grey and orange jacket Watch">
+                                <a href="#modal-product6" title="See grey and orange jacket Watch">
                                     <img src="/images/products/watch-jacket.png" class="jacket4" alt="Red and orange jacket Watch">
                                     <h3 class="product_name" itemprop="name">Watch jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
                                 </a>
                             </div>
                                <div class="bestselling_products" itemscope itemtype="https://schema.org/Product">
-                                    <a href= "checkbox" title="See grey Xm-Xtreme jacket">
+                                    <a href="#modal-product7" title="See grey Xm-Xtreme jacket">
                                     <img src="/images/products/xm-xtreme-jacket.png" class="jacket4" alt="Black jacket Xm-Xtreme">
                                     <h3 class="product_name" itemprop="name">Xm-xtreme jacket</h3>
                                     <p class="product_price" itemprop="price">1500 kr</p>
@@ -105,19 +106,7 @@
                     </div>
                     </div>
                     </div>
-                        <input type="checkbox" id="products">
-                        <label for="click" class="show_products">Show products</label>
-                        <div class="content">
-                                <h2>Xm-xtreme jacket</h2>
-                                <h3>1500 kr</h3>
-                                <a class="close_btn" type="X" href="/jackets.html"><i class="fa-solid fa-x icon5"></i></a>
-                                <img src="/images/products/xm-xtreme-jacket.png" class="jacket_big" alt="Black jacket Xm-Xtreme">
-                                <h3>Size: - M + </h3>
-                                <div class="flex_2 mw row mb row mb">
-                                    <a href="/cart.html" class="btn green center" title="Add to cart">Buy this jacket</a>
-                                    <a href="/jackets.html" class="btn green center" title="Countinue shopping ">Countinue shopping</a>
-                                </div>
-                        </div>
+                       
                     </main>
                     <footer class="wrapper">
                         <div class="mw">
@@ -133,6 +122,111 @@
                             </div>
                         </div>
                     </footer>
+                   <div id="modal-product1" class="modal-container">
+                      <div class="modal-content-wrapper">
+                          <div class="modal-content">
+                             <h3 class="name">Scott jacket</h3>
+                             <h4 class="price">1500kr</h4>
+                             <img class="image" src="/images/products/red-jacket-scott.jpg" alt="Red jacket Scott">
+                             <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                             <h4>- M + </h4>
+                             <div class="actions">
+                                 <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                 <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                               </div>
+                         </div>
+                     </div>
+                 </div>
+                <div id="modal-product2" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Scott jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/black-jacket-scott.png" alt="Black jacket Scott">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-product3" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Scott jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/dark-jacket-scott.png" alt="Dark jacket Scott">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-product4" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Scott jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/grey-black-jacket-scott.png" alt="Black and grey jacket Scott">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-product5" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Petegonia jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/patagonia-jacket.png" alt="Green Petegonia jacket">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-product6" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Watch jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/watch-jacket.png" alt="Watch jacket">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-product7" class="modal-container">
+                    <div class="modal-content-wrapper">
+                        <div class="modal-content">
+                            <h1 class="name">Xm-Xtreme jacket</h1>
+                            <h2 class="price">1500kr</h2>
+                            <img class="image" src="/images/products/xm-xtreme-jacket.png" alt="Xm-Xtreme jacket">
+                            <h3 class="size"> - M + </h3>
+                            <a href="#closemodal" class="modal-close" title="Close">Close</a>
+                            <div class="actions">
+                                <a href="cart.html" class="btn green nomargin">Add to cart</a>
+                                <a href="jackets.html" class="btn green nomargin">Continue shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     </body>
                     
                     </html>

@@ -95,11 +95,25 @@
     text-indent: -9999px;
 }
 
-#modal-product1, #modal-product2, #modal-cart {
+#modal-product1, 
+#modal-product2, 
+#modal-product3, 
+#modal-product4, 
+#modal-product5, 
+#modal-product6, 
+#modal-product7, 
+#modal-cart {
     display: none;
 }
 
-#modal-product1:target, #modal-product2:target, #modal-cart:target {
+#modal-product1:target, 
+#modal-product2:target, 
+#modal-product3:target,
+#modal-product4:target,
+#modal-product5:target,
+#modal-product6:target,
+#modal-product7:target,
+#modal-cart:target {
     display: block;
 }
 
