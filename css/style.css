@@ -343,7 +343,6 @@ i {
 * Buttons
 */
 .btn {
-    font-size: 1em;
     padding: 20px 40px;
     border-radius: 50px;
     font-family: "Roboto bold";
@@ -354,7 +353,7 @@ i {
     min-width: 100px;
     margin: 0 auto;
     text-decoration: none;
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
   
 .btn.green {
