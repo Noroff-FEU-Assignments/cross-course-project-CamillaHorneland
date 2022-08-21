@@ -43,7 +43,7 @@
 
     .product_container {
             display: grid;
-            grid-template-columns: repeat(2, 250px);
+            grid-template-columns: repeat(2, 150px);
         }
 
     .product_container>div {
