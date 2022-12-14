@@ -6,4 +6,12 @@
     #desktop_nav i {
         color: #000 !important;
     }
+
+    .green  {
+        margin-top: 30px;
+    }
+
+    .blue {
+        margin:10px;
+    } 
 }

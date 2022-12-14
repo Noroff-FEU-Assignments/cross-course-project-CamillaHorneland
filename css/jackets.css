@@ -21,11 +21,12 @@
 /*
 * Media queries
 */
-@media (min-width: 800px) {
+@media (min-width: 850px) {
 
     .product_container {
-       display: grid;
+      display: grid;
       grid-template-columns: repeat(3, 250px); 
+      gap: 30px;
     }
 
     .product_container>div {   
@@ -39,11 +40,12 @@
    
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 
     .product_container {
             display: grid;
-            grid-template-columns: repeat(2, 150px);
+            grid-template-columns: repeat(2, 250px);
+            gap:30px;
         }
 
     .product_container>div {
@@ -54,4 +56,14 @@
              width: 400px;
              height: 400px;
     }
+}
+
+@media (max-width: 500px) {
+
+    .product_container {
+            display: grid;
+            grid-template-columns: repeat(1, 230px);
+            gap: 30px;
+        }
+
 }
