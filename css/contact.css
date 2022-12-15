@@ -5,17 +5,23 @@ h1 {
 form {
     border: 2px solid black;
     max-width: 350px; 
+    min-width: 250px;
     height: 600px;
-    margin: 40px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 input {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    font-size: 16px;
-   
+    font-size: 18px;  
 }
 
 .form-error {
@@ -24,8 +30,6 @@ input {
     font-size: 1rem;
     margin-top: 2px;
 }
-
-
 
 label {
     display: block;
@@ -49,13 +53,13 @@ label {
 
 .pre-post-mail::before {
     content: "";
-        display: inline-block;
-        background: url(../images/email.png) no-repeat;
-        width: 25px;
-        background-size: contain;
-        height: 25px;
-        margin-right: 7px;
-        margin-top: 5px;
+    display: inline-block;
+    background: url(../images/email.png) no-repeat;
+    width: 25px;
+    background-size: contain;
+    height: 25px;
+    margin-right: 7px;
+    margin-top: 5px;
 }
 
 .pre-post-phone::before {
@@ -92,24 +96,36 @@ p {
 } */
 
 
-@Media (min-widt:900px) {
+@Media (min-width: 850px) {
     
-    /* .flex {
-        display:flex;
-        flex-direction: column;
-        size: 100%;
+    .flex_1,
+    .flex_2 {
+        display: flex;
+        height: 100%;
+        
     }
 
-    .flex_1 {
-        margin-left: 80px;
-      
-    } */
+    .flex_2 {
+        flex-direction: column;
+        flex: 2;
+        margin-top: 35px;
+        margin-right: 60px;
+    }
+            
 
-    .form1,
     .flex_1 {
+        flex: 1;
+        justify-content: center;
+        margin-left: 60px;
+    } 
+}
+
+@Media (max-width: 849px) {
+
+    .flex_1,
+    .flex_2 {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
     }
 }
 

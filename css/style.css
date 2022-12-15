@@ -18,18 +18,12 @@
 
 }
 
-/*
-* CSS Reset
-*/
 html,
 body {
     margin: 0;
     padding: 0;
 }
 
-/*
-* Theme Presets
-*/
 
 h1 {
     font-family: "tahoma bold";
@@ -52,13 +46,10 @@ h3 {
     text-align: center;
 }
 
-
-
 p {
     font-family: "Roboto medium";
     font-size: 20px;
     color: #000;
-    text-align: left;
 }
 
 img {
@@ -98,10 +89,6 @@ img {
     right: 0;
     top: 4px;
 }
-
-/*
-* Grid / Layout
-*/
 
 .wrapper {
     padding-right: 15px;
