@@ -1,0 +1,53 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Scott jacket",
+            "price": 1500,
+            "image": "/images/products/red-jacket-scott.jpg",
+            "bestselling": true
+        },
+        {
+            "id": 2,
+            "name": "Scott jacket",
+            "price": 1500,
+            "image": "/images/products/black-jacket-scott.png",
+            "bestselling": true
+        },
+        {
+            "id": 3,
+            "name": "Scott jacket",
+            "price": 1500,
+            "image": "/images/products/dark-jacket-scott.png",
+            "bestselling": false
+        },
+        {
+            "id": 4,
+            "name": "Scott jacket",
+            "price": 1500,
+            "image": "/images/products/grey-black-jacket-scott.png",
+            "bestselling": false
+        },
+        {
+            "id": 5,
+            "name": "Patagonia jacket",
+            "price": 1500,
+            "image": "/images/products/patagonia-jacket.png",
+            "bestselling": false
+        },
+        {
+            "id": 6,
+            "name": "Watch jacket",
+            "price": 1500,
+            "image": "/images/products/watch-jacket.png",
+            "bestselling": false
+        },
+           {
+            "id": 7,
+            "name": "Xm-xtreme jacket",
+            "price": 1500,
+            "image": "/images/products/xm-xtreme-jacket.png",
+            "bestselling": false
+        },
+    ]
+}
