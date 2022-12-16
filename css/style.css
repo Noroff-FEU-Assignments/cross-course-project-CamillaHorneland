@@ -28,7 +28,7 @@ body {
 h1 {
     font-family: "tahoma bold";
     font-size: 1.4em;
-    color: #0F4E57;
+    color: #0d363c;
     text-align: center;
 }
 
@@ -178,6 +178,7 @@ header img {
     min-height: auto !important;
     object-fit: contain;
     height: 188px;
+    border: #000 2px;
 }
 
 header img {

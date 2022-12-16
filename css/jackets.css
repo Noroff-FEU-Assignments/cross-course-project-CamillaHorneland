@@ -37,7 +37,11 @@
         width: 700px;
         height: 700px;
     }
-   
+
+    #desktop_nav i {
+        border: 1px;
+        background-color: #0000008f;
+    }      
 }
 
 @media (max-width: 850px) {

@@ -118,6 +118,12 @@ p {
         justify-content: center;
         margin-left: 60px;
     } 
+
+    #desktop_nav i {
+        border: 1px;
+        background-color: #0000008f;
+    }
+    
 }
 
 @Media (max-width: 849px) {
