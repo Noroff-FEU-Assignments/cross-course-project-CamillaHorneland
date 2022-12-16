@@ -467,12 +467,37 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    .col-m-12 {
+        width: 100%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+}
+
 @media (min-width: 800px) {
     h1 {
         margin: 30px;
     }
 
-    h2 {
-        margin: 30px;
+     h2 {
+         margin: 30px;
+    }
+    
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+}
+    
+ @media (min-width: 1000px) {
+     .col-l-12 {
+        width: 100%;
+    }
+    
+    .col-l-6 {
+        width: 50%;
     }
 }

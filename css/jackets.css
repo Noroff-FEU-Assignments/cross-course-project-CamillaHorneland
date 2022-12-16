@@ -6,7 +6,6 @@
 
 .close_btn {
     position: block;
-    display: ;
     right: 20px;
     color: #000;
 }
@@ -18,9 +17,6 @@
 }
 
 
-/*
-* Media queries
-*/
 @media (min-width: 850px) {
 
     .product_container {
@@ -69,5 +65,4 @@
             grid-template-columns: repeat(1, 230px);
             gap: 30px;
         }
-
 }

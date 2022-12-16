@@ -48,22 +48,47 @@
         </div>
      </header>
      <main>
-            <div class="flex-row cart_items">
-                <div class="col-6 ">
-                    <h2>Your Order</h2>
-                <div class="cart-row">
-                    <span class="cart-item cart-header cart-column">ITEM</span>
-                    <span class="cart-price cart-header cart-column">PRICE</span>
-                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-                </div>
-                <div class="cart-items">
-                </div>
-                <button class="btn remove" type="button">REMOVE</button>
-                <div class="cart-total">
-                    <strong class="cart-total-title">Total</strong>
-                    <span class="cart-total-price">$0</span>
-                </div>
-                </div>
+                    <div class="flex-row cart_items">
+                        <div class="col-6 ">
+                            <h2>Your Order</h2>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img class="table-image" src="/images/products/red-jacket-scott.jpg" alt="See Red Jacket Scott">
+                                        </td>
+                                        <td>
+                                            <p>- 1 +</p>
+                                        </td>
+                                        <td>
+                                            1500,00 kr
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Shipping*</td>
+                                        <td class="shippingfee">00,00 kr</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Total price</td>
+                                        <td class="sum">1500,00 kr</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p style="font-size: 11px;margin:0">* Shop for more than 2000 kr and get free shipping</p>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
                 <div class="col-6 col-m-12 center">
                         <form>
                             <div class="cc-container payment-option">
@@ -92,7 +117,7 @@
                 </div>
             </div>
            <div class="wrapper col-6">
-            <a href="#modal-cart" class="checkout btn blue" title="Checkout">Checkout</a>
+            <a href="#modal-cart" id="checkoutBtn" onclick="emptyCart()" class="btn blue hidden" title="Checkout">Checkout</a>
             <a href="/jackets.html" class="btn green" title="Continue shopping">Show Jackets</a>
            </div>
     </main>
