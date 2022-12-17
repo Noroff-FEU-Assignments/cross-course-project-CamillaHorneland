@@ -19,7 +19,7 @@ textarea {
 }
 
 textarea {
-    min-width: 215px;
+    min-width: 250px;
     width: auto;
 }
 
@@ -80,20 +80,6 @@ p {
     margin: 50px;
     text-align: center;
 }
-
-/* .modal-close2 {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: url(/images/Group\ 1.png) no-repeat;
-   
-    background-size: 30px 25px;
-    width: 30px;
-    height: 25px;
-    display: block;
-    text-indent: -9999px;
-} */
-
 
 @Media (min-width: 900px) {
     

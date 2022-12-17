@@ -2,21 +2,19 @@
     padding: 0;
 }
 
-main {
-    min-height: 600px;
-}
-
 p {
     text-align: left;
 }
 
+main {
+    min-height: 600px;
+}
 /*
 * Media queries
 */
 @media (min-width: 800px) {
 
     .flex-container { 
-       
         margin: 50px;
         display: flex;
         flex-direction: row;
@@ -41,12 +39,6 @@ p {
         margin-bottom: 30px;
     }
 
-
-    footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
 
     #desktop_nav i {
         border: 1px;

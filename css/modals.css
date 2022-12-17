@@ -125,7 +125,6 @@ h4 {
     text-align: center;
 }
 
-#model-cart {}
 
 .btn3 {
     background-color: #fff;
@@ -147,10 +146,11 @@ h4 {
 
 @media (max-width: 800px) { 
     .modal-content-wrapper {
-        width: 330px;
-        height: 460px;
-        margin-left: -175px;
+        width: 450px;
+        height: 450px;
+        margin-left: -230px;
         margin-top: -230px;
+       
     }
 
     .modal-content-wrapper.success {
@@ -161,5 +161,20 @@ h4 {
         flex-direction: column;
         
     }
+}
+
+@media (max-width: 600px) {
+    .modal-content-wrapper {
+            width: 350px;
+            height: 450px;
+            margin-left: -180px;
+    }
+
+         .modal-content-wrapper.success {
+             width: 300px;
+             height: 450px;
+             
+         }
+
 }
 

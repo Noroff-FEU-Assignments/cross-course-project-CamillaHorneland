@@ -1,13 +1,7 @@
 main {
-    /* min-height: 1000px; */
     margin-top: 70px;
     margin-bottom: 50px;
-}
-
-body {
-    min-height: 1000px;
-    display: flex;
-    flex-direction: column;
+    min-height: 600px;
 }
 
 .btn {
@@ -23,16 +17,12 @@ body {
 
 .payment-option {
     border: 2px solid black;
-    width: 350px;
+    min-width: 300px;
     display: inline-block;
     margin-bottom: 20px;
     margin-top: 60px;
     padding: 10px;
-    margin-left: 150px;
-}
-
-.p2 {
-    padding:0;
+    margin-left: 120px;
 }
 
 .payment-option ul, .payment-option ul li {
@@ -77,10 +67,6 @@ body {
   margin-bottom: 50px;
 }
 
-/*img {
-    width: 15%; 
-    float: left; 
-}*/
 .table-image {
     width: 100px;
 }
@@ -88,6 +74,7 @@ body {
 table {
     width: 100%;
     height: 100%;
+    min-width: 350px;
     padding-bottom: 100px;  
     margin-left: 60px;
     border-spacing: 0;
@@ -113,28 +100,45 @@ table tfoot tr:last-child td {
     border-bottom: 1px solid #000;
 }
 
-footer {
-  width: 100%;
-   margin-top: auto;
-   
+@media (max-width: 900px) {
+
+    .payment-option,
+    table {
+           
+            margin: 20px;
+            align-items: center;
+        }
+
 }
 
-/*
-* Media queries
-*/
-@media (max-width: 900px) {
+@media (max-width: 750px) {
+
+    form,
+    .btn {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
 
     .cart-container {
         justify-content: center;
     }
 
     .payment-option {
-        max-width: 300px;
-        margin: 10px;
+        display: flex;
         align-items: center;
-        margin-bottom: 20px;
-        padding: 10px;
-        }
+        margin-left: 0px;
+        max-width: 300px;
+    }
 
     .actions {
         align-items: center;
@@ -142,20 +146,16 @@ footer {
         margin-bottom: 20px;
     }      
 
-    .table {
-        padding-bottom: 10px;
-        width: 100%;
-        height: 100%;
-        margin-left: 0px;
-        }
-}
+    table {
+        min-width: 300px; 
+        justify-content: center;
+    }
+    
 
-@media (min-width: 900px) {
-
-footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+    .btn {
+        max-width: 120px;
     }
 
 }
+
+

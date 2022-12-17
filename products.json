@@ -15,12 +15,12 @@
             "bestselling": true
         },
         {
-            "id": 3,
-            "name": "Scott jacket",
-            "price": 1500,
-            "image": "/images/products/dark-jacket-scott.png",
-            "bestselling": false
-        },
+       "id": 3,
+			"name": "Scott jacket",
+			"price": 1500,
+			"image": "/images/products/grey-black-jacket-scott.png",
+			"bestselling": false
+		},
         {
             "id": 4,
             "name": "Scott jacket",

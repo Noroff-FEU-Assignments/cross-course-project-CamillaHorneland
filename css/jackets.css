@@ -16,6 +16,9 @@
      min-height: 400px;
 }
 
+a {
+    text-decoration: none;
+}
 
 @media (min-width: 850px) {
 
