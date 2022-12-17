@@ -23,6 +23,7 @@ html {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    justify-content: baseline;
 }
 
 
@@ -92,9 +93,9 @@ img {
 }
 
 .wrapper {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
+    padding-right: 15px; 
+    padding-left: 15px; 
+    margin-right: auto; 
     margin-left: auto;
 }
 
@@ -399,7 +400,7 @@ footer {
 .copy {
     float: right;
     display: block;
-    padding: 20px;
+    /* padding: 20px; */
     color: #fff;
     margin-right: 12px;
 }
