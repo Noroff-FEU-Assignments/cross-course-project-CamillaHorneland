@@ -79,17 +79,17 @@ function renderCart() {
 		var cartContentHTML = '';
 		var sum = 0;
 		cart.items.forEach(function(cartItem){
-			sum = sum + (cartItem.price * cartItem.qty);
+			sum = sum + ((cartItem.prices.price/100) * cartItem.qty);
 			cartContentHTML += `
 				<tr id="product-${cartItem.id}">
                     <td>
-                        <img class="table-image" src="${cartItem.image}" alt="See ${cartItem.name}">
+                        <img class="table-image" src="${cartItem.images[0].src}" alt="See ${cartItem.name}">
                     </td>
                     <td>
                         <p><button onclick="removeFromCart('${escape(JSON.stringify(cartItem))}')">-</button> ${cartItem.qty} <button onclick="addToCart('${escape(JSON.stringify(cartItem))}')">+</button></p>
                     </td>
                     <td>
-                        ${cartItem.price} kr
+                        ${cartItem.price_html}
                     </td>
                 </tr>
 			`;

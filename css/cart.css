@@ -8,6 +8,10 @@ main {
     margin: 20px;
 }
 
+h4 {
+    color:rgb(154, 230, 230);
+}
+
  #logo {
     width: 100%;
     display: block;
