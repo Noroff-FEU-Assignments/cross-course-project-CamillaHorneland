@@ -16,26 +16,32 @@
      min-height: 400px;
 }
 
-a {
-    text-decoration: none;
+
+
+
+.product_container img {
+    margin-bottom: 20px;
+    height: 230px;
 }
 
-@media (min-width: 850px) {
+
+
+@media (min-width: 960px) {
 
     .product_container {
       display: grid;
       grid-template-columns: repeat(3, 250px); 
-      gap: 30px;
+      gap: 55px;
     }
 
     .product_container>div {   
        width: 90% ;
     }
 
-    .content {
+    /* .content {
         width: 700px;
         height: 700px;
-    }
+    } */
 
     #desktop_nav i {
         border: 1px;
@@ -43,7 +49,7 @@ a {
     }      
 }
 
-@media (max-width: 850px) {
+@media (max-width: 960px) {
 
     .product_container {
             display: grid;

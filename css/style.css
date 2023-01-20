@@ -43,8 +43,15 @@ h2 {
 
 h3 {
     font-family: "Roboto medium";
-    font-size: 1em;
+    font-size: 1.2em;
     color: #103040;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Roboto medium";
+    font-size: 1.1em;
+    color: #000;
     text-align: center;
 }
 
@@ -340,29 +347,37 @@ i {
 
 .bestselling_products img {
     width: 100%;
-    min-height: 177px;
+    height: 200px;
     object-fit: contain;
-    max-height: 336px;
+    margin: 20px;
+   
+}
+
+.data {
+  gap: 50px;
 }
 
 .product_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 40px;
+    text-decoration: none;
+   
 }
 
 .product_container>div {
-    width: 40%;
+    min-width: 200px;
+    min-height: 400px;
     margin: 20px;
     border: 1px solid #000;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
 .product_container>div * {
     text-align: center;
-    margin: 0;
+    text-decoration: none;
 }
 
 body {
