@@ -10,8 +10,8 @@
 
 .modal-content-wrapper {
     position: absolute;
-    width: 800px;
-    height: 650px;
+    width: 750px;
+    height: 600px;
     z-index: 2;
     padding: 10px;
     border: 1px solid #000;
@@ -44,6 +44,7 @@
 
 }
 
+
 .modal-content-wrapper.success .actions {
     flex-direction: column;
     position: relative;
@@ -58,11 +59,11 @@
 .modal-content-wrapper .price {
     text-align: left;
     font-size: 20px;
-    margin: 0;
+    margin: 15px;
 }
 
 .modal-content-wrapper .image {
-    width: 50%;
+    width: 43%;
     object-fit: contain;
     margin: 0 auto;
     display: block;;
@@ -98,31 +99,9 @@
     display: none;
 }
 
-/* #modal-product1, 
-#modal-product2, 
-#modal-product3, 
-#modal-product4, 
-#modal-product5, 
-#modal-product6, 
-#modal-product7, 
-#modal-cart {
-    display: none;
-} */
-
 .modal-container:target {
     display: block;
 }
-
-/* #modal-product1:target, 
-#modal-product2:target, 
-#modal-product3:target,
-#modal-product4:target,
-#modal-product5:target,
-#modal-product6:target,
-#modal-product7:target,
-#modal-cart:target {
-    display: block;
-} */
 
 h1 {
 background-color: #fff;
@@ -154,7 +133,7 @@ h4 {
 @media (max-width: 800px) { 
     .modal-content-wrapper {
         width: 450px;
-        height: 450px;
+        height: 530px;
         margin-left: -230px;
         margin-top: -230px;
        
@@ -173,7 +152,7 @@ h4 {
 @media (max-width: 600px) {
     .modal-content-wrapper {
             width: 350px;
-            height: 450px;
+            height: 500px;
             margin-left: -180px;
     }
 

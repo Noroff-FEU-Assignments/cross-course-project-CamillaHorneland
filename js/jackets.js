@@ -16,10 +16,7 @@ async function getProducts() {
         productContainer.innerHTML = "";
         
         for(let i = 0; i < object.length; i++) {
-
-           
-        // #modal-product${product.id}
-        
+  
         productContainer.innerHTML += 
           `<div class="data">
            <a href="#modal-product${object[i].id}">
@@ -37,7 +34,6 @@ async function getProducts() {
                       <h1 class="name">${object[i].name}</h1>
                       <h2 class="price">${object[i].price_html}</h2>
                       <img class="image" src="${object[i].images[0].src}" alt="${object[i].name}">
-                      <h3 class="size"> - M + </h3>
                       <a href="#closemodal" class="modal-close" title="Close">Close</a>
                       <div class="actions">
                           <a href="#modal-cart" class="btn green nomargin" onclick="addToCart('${escape(JSON.stringify(object[i]))}')">Add to cart</a>

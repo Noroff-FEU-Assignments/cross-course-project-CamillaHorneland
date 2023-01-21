@@ -20,13 +20,8 @@ async function getBestsellingProducts() {
                     <h3 class ="name">${bestsellers[i].name}</h3>
                     <h4 class="price">${bestsellers[i].price_html}</h4>
                     </a>
-                </div>`;
-                var sizes = bestsellers[i].attributes.find(attribute => attribute.id == 0)?.terms;
-                var sizesHtml = '<select name="size">';
-                sizes.forEach(size => {
-                    sizesHtml += `<option value="${size.slug}">${size.name}</option>`
-                })
-                sizesHtml += '<select name="size">';
+                </div>`; 
+               
                 modalsContainer.innerHTML += 
                     `<div id="modal-product${bestsellers[i].id}" class="modal-container">
                         <div class="modal-content-wrapper">
