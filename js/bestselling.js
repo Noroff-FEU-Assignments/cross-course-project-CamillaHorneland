@@ -1,7 +1,7 @@
 const containerBestSelling = document.querySelector('.bestselling .product_container');
 const modalsContainer = document.querySelector('.product_modals');
 
-var url = "https://camillahorneland.no/wp-json/wc/store/products";
+var url = "https://camillahorneland.no/rainyday/wp-json/wc/store/products";
 if(window.location.hostname == '127.0.0.1')
   url = "https://cms-ca/wp-json/wc/store/products";
 
