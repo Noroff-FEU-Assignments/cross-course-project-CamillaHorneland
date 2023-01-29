@@ -8,7 +8,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-var url = "https://camillahorneland.no/rainydays/wp-json/wc/store/products/"+id;
+var url = "https://camillahorneland.no/rainyday/wp-json/wc/store/products/"+id;
 if(window.location.hostname == '127.0.0.1')
    url = "https://cms-ca/wp-json/wc/store/products/"+id;
 
