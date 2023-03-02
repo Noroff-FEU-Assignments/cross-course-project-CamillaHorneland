@@ -19,7 +19,7 @@ async function detailProducts() {
         detailContainer.innerHTML = "";
         detailContainer.innerHTML += 
               `<div class="data">
-                  <img src="${object.images[0].src}" />
+                  <img src="${object.images[0].src}" alt="${bestsellers[i].name}">
                   <h3 class ="name">${object.name}</h3>
                   <h4 class="price">${object.price_html}</h4>
              </div>`;

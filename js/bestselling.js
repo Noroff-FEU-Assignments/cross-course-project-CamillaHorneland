@@ -16,7 +16,7 @@ async function getBestsellingProducts() {
             containerBestSelling.innerHTML += 
                 `<div class="data bestselling_products">
                     <a href="#modal-product${bestsellers[i].id}">
-                    <img src="${bestsellers[i].images[0].src}" />
+                    <img src="${bestsellers[i].images[0].src}" alt="${bestsellers[i].name}">
                     <h3 class ="name">${bestsellers[i].name}</h3>
                     <h4 class="price">${bestsellers[i].price_html}</h4>
                     </a>
