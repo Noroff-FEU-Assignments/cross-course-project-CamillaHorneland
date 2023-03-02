@@ -3,7 +3,7 @@ const modalsContainer = document.querySelector('.product_modals');
 
 var url = "https://camillahorneland.no/rainyday/wp-json/wc/store/products";
 if(window.location.hostname == '127.0.0.1')
-  url = "https://cms-ca/wp-json/wc/store/products";
+  url = "https://rainyday/wp-json/wc/store/products";
 
 async function getProducts() {
     try {
@@ -21,7 +21,7 @@ async function getProducts() {
           `<div class="data">
            <a href="#modal-product${object[i].id}">
            
-              <img src="${object[i].images[0].src}" />
+              <img src="${object[i].images[0].src}" alt"${object[i].images[0].name}">
               <h3 class ="name">${object[i].name}</h3>
               <h4 class="price">${object[i].price_html}</h4>
             </a>
