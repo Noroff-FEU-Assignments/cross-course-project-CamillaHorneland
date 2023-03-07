@@ -8,7 +8,7 @@ This is my cross-course-project from first year as Font-end Developer student.
 
 This was the first big project durring the first year. 
 
-- Design module assignment: Style til for this project.
+- Design module assignment: Style tile for this project.
 - Design course assignment: Prototype for this project.
 - HTML AND CSS module assignment: Code the home page for this project.
 - HTML AND CSS course assignment: Code the rest of the pages for this project.
