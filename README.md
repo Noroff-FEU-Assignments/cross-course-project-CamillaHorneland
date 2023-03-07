@@ -6,13 +6,15 @@ This is my cross-course-project from first year as Font-end Developer student.
 
  # Details:
 
-(Add a more detailed description of what your project entails and set out to do.)
+This was the first big project durring the first year. 
 
 You can add some bullet points if you'd like to:
 
-    List item 1
-    List item 2
-    List item 3
+    Design module assignment: Style til for this project.
+    Design course assignment: Prototype for this project.
+    HTML AND CSS module assignment: Code the home page for this project.
+    HTML AND CSS course assignment: Code the rest of the pages for this project.
+    Interaction design course assignment: In javascript make The purchase/cart functionality and the contact form. Perform accessibility testing and make changes. 
 
 # Built With:
 
