@@ -17,10 +17,11 @@ This was the first big project durring the first year.
 
 # Built With:
 
-(You can list a the tech stack that you've used over here
-
-    React.js
+    HTML
+    CSS
+    JavaScript
     Bootstrap)
+    Wordpress Headless CMS (REST API).
 
 # Getting Started
 ## Installing
