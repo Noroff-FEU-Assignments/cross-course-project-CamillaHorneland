@@ -21,8 +21,8 @@ You can add some bullet points if you'd like to:
     React.js
     Bootstrap)
 
-## Getting Started
-# Installing
+# Getting Started
+## Installing
 
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
@@ -34,7 +34,7 @@ git clone git@github.com:NoroffFEU/portfolio-1-example.git
 
 npm install
 
-# Running
+## Running
 
 Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
