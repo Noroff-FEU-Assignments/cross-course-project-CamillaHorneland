@@ -17,11 +17,11 @@ This was the first big project durring the first year.
 
 # Built With:
 
-    HTML
-    CSS
-    JavaScript
-    Bootstrap)
-    Wordpress Headless CMS (REST API).
+    - HTML
+    - CSS
+    - JavaScript
+    - Bootstrap)
+    - Wordpress Headless CMS (REST API)
 
 # Getting Started
 ## Installing
