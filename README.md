@@ -22,7 +22,6 @@ This was the first big project durring the first year.
     - HTML
     - CSS
     - JavaScript
-    - Bootstrap)
     - Wordpress Headless CMS (REST API)
     
 # Instructions:
