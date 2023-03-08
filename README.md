@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Noroff-FEU-Assignments/cross-course-project-CamillaHorneland/blob/main/images/rainyday.jpeg?raw=true" alt="image of Rainyday web" width="400px">
 
-This is my cross-course-project from my first year as Font-end Developer student.
+This is my cross-course-project from my first year as a Font-end Developer student.
 
  # Details:
 
