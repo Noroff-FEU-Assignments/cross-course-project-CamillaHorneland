@@ -17,6 +17,7 @@ This was the first big project durring the first year.
 
 # Built With:
 
+    - Adobe XD
     - HTML
     - CSS
     - JavaScript
@@ -25,12 +26,8 @@ This was the first big project durring the first year.
 
 # Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+<a href="mailto:hornikkene@gmail.com?">My Mail</a> 
 
-My Twitter page
+<a href="https://portfoliocamillahorneland.netlify.app/">My Portfolio</a>
 
-My LinkedIn page
-
-# Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+<a href="https://www.linkedin.com/in/camilla-horneland-706bb5239/">My LinkedIn page</a>
