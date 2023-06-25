@@ -26,21 +26,10 @@ This was the first big project durring the first year.
     
 # Getting Started
 
-## Installing
-
 1.Clone the repo:
 
     git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-CamillaHorneland.git
 
-2. Install the dependencies:
-
-       npm install
-
-## Running
-
-To run the app, run the following commands:
-
-      npm run start
       
 # Contact
 
